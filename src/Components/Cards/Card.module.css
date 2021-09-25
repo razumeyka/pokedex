@@ -1,0 +1,70 @@
+.card {
+    box-sizing: border-box;
+    border: 1px solid #000;
+    padding: 20px 20px 30px;
+}
+
+.pic img {
+    width: 100%;
+}
+
+.name {
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag {
+    box-sizing: border-box;
+    background: linear-gradient(#ff6f36, #ffb091);
+    border: 1px solid #ff6f36;
+    border-radius: 4px;
+    padding: 1px 5px 3px;
+    margin-right: 5px;
+}
+
+.tag_grass {
+    background: linear-gradient(#00ff15 , #aef8b4);
+    border: 1px solid #00ff15;
+}
+
+.tag_poison {
+    background: linear-gradient(#ff00d4 , #ffc4f5);
+    border: 1px solid #ff00d4;
+}
+
+.tag_fire {
+    background: linear-gradient(red, #eca5a5);
+    border: 1px solid #eca5a5;
+}
+
+.tag_flying {
+    background: linear-gradient(#af00be, #ecabf1);
+    border: 1px solid #af00be;
+}
+
+.tag_water {
+    background: linear-gradient(#5900ff, #a0a9fc);
+    border: 1px solid #5900ff;
+}
+
+.tag_bug {
+    background: linear-gradient(#ffd000, #fceba3);
+    border: 1px solid #ffd000;
+}
+
+.tag_normal {
+    background: linear-gradient(r#6b598d, #bdb0d6);
+    border: 1px solid #6b598d;
+}
+
+.tag_electric {
+    background: linear-gradient(#058545, #7ec5a1);
+    border: 1px solid #058545;
+}

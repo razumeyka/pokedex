@@ -1,0 +1,12 @@
+.preloader {
+    width: 40px;
+    height: 40px;
+    animation: rotate-animation 0.8s infinite linear;
+    margin: 50px auto 0;
+}
+
+@keyframes rotate-animation {
+    100% {
+        transform: rotate(360deg);
+    }
+}

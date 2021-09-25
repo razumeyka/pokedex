@@ -1,0 +1,35 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+}
+
+.card {
+    box-sizing: border-box;
+    width: 33.3333%;
+    padding: 10px;
+}
+
+@media screen and (max-width: 1023px) {
+    .card {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .card {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .card {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .card {
+        width: 100%;
+    }
+}

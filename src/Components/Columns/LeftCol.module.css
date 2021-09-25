@@ -1,0 +1,15 @@
+.col {
+    margin-right: 360px;
+}
+
+@media screen and (max-width: 1279px) {
+    .col {
+        margin-right: 290px;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .col {
+        margin-right: 0;
+    }
+}
