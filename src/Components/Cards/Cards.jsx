@@ -90,7 +90,7 @@ const Cards = (props) => {
             content = sortedPokemons.map( item => {
                 return (
                     <div key={item.id} className={classes.card}>
-                        <Card pokemon={item} onShowDetails={showHandler} />
+                        <Card pokemon={item} onShowPokemonDetails={showHandler} />
                     </div>
                 )
             });
